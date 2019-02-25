@@ -2,5 +2,6 @@ Bootstrap: docker
 From: ubuntu:latest
 
 
-%setup
- apt-get update && apt-get install r-base 
+%post
+apt-get update && apt-get -y install r-base
+
