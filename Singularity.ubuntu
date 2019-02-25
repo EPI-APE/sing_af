@@ -3,4 +3,4 @@ From: ubuntu:latest
 
 
 %setup
- exec apt-get update && apt-get install r-base 
+ sudo apt-get update && apt-get install r-base 
